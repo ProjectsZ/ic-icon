@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+    <select id='list'>
+        <option value='1'>Option A</option>
+        <option value='2'>Option B</option>
+        <option value='3'>Option C</option>
+    </select>
+    
+    <a href="http://google.com">Text</a>
+    
+    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    
+    <script>
+        $("#list").change(function() {
+            alert($(this).find("option:selected").text()+' clicked!');
+            $("a").attr("href", "http://www.google.com/")
+        });
+    </script>
+    
+</body>
+</html>

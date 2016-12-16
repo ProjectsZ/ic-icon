@@ -1,0 +1,130 @@
+/* Import the Google Font 'Lato' */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@background: #F1F2F1;
+
+@red-500: #f44336;
+@yellow-500: #ffeb3b;
+@amber-500: #ffc107;
+@deepOrange-500: #FF5722;
+@lightBlue-500: #03a9f4;
+@lightBlue-900: #01579b;
+@indigo-500: #3f51b5;
+@blue-500: #2196f3;
+@grey-50: #FAFAFA;
+@grey-200: #eeeeee;
+@grey-500: #9E9E9E;
+@grey-300: #E0E0E0;
+@blanco: #FFFFFF;
+
+@barra-size: 25px;
+
+/* Chechear HTML para definir valores */
+@Percent-WebDesign: 80%;
+@Percent-HTML5: 70%;
+@Percent-CSS3: 75%;
+@Percent-JS: 20%;
+@Percent-JQuery: 45%;
+@Percent-TypeScript: 65%;
+@Percent-Angular2: 73%;
+@Percent-Java: 80%;
+
+
+
+
+//MODAL
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 20%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+
+/* The Close Button */
+span[class$="px_close"]
+{
+    color: #212121;
+    background: #FFFF00;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-top: 7px; padding-bottom: 7px;
+    padding-left: 12px; padding-right: 12px;
+    border-radius: 50%;
+    box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+    position: fixed; right: 8%;
+}
+
+
+
+span[class$="px_close"]:hover, span[class$="px_close"]:focus
+{
+    background: #FF1744;
+    color: #FAFAFA;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: transparent;
+    color: white;
+    font-family: "Roboto Medium", monospace;
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 2px 16px;
+    text-align: center;
+}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #212121;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
